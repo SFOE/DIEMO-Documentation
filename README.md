@@ -1,8 +1,8 @@
-# DIEMO-Documentation
+# How to query DIEMO
 
-* [Doc](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features)
+* [general documentation of the identify-service of api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features)
 * [ESRI doc](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
-* [Code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
+* [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 
 Examples 1:
 
