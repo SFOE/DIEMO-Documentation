@@ -43,3 +43,8 @@ Additionally, [Longitude > 7.476](https://mf-chsdi3.int.bgdi.ch/diemo/rest/servi
 "ch.bfe.ladestellen-elektromobilitaet": "QueryAuthenticationModes ilike '%nfc%'", 
 "ch.bfe.ladestellen-elektromobilitaet": "Longitude > 7.476"}
 ```
+
+
+Open Questions
+* How to query "ilike not"?
+* OR?
