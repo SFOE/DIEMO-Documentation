@@ -27,3 +27,8 @@ Additionally, [IsOpen24Hours = true](https://mf-chsdi3.int.bgdi.ch/diemo/rest/se
 ```
 &layerDefs={"ch.bfe.ladestellen-elektromobilitaet": "IsOpen24Hours = true"}
 ```
+Additionally, [Authentication with NFC](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=3500&sr=2056&layerDefs={%22ch.bfe.ladestellen-elektromobilitaet%22:%20%22IsOpen24Hours%20=%20true%22,%20%22ch.bfe.ladestellen-elektromobilitaet%22:%22QueryAuthenticationModes%20ilike%20%27%nfc%%27%22})
+
+```
+&layerDefs={"ch.bfe.ladestellen-elektromobilitaet": "IsOpen24Hours = true", "ch.bfe.ladestellen-elektromobilitaet":"QueryAuthenticationModes ilike '%nfc%'"}
+```
