@@ -54,7 +54,7 @@ Additionally, [Longitude > 7.476](https://mf-chsdi3.int.bgdi.ch/diemo/rest/servi
 ```
 ## Find example
 
-[Search for “ich” in the field “city” (infix match)](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?layer=ch.bfe.ladestellen-elektromobilitaet&searchText=ich&searchField=City&returnGeometry=false)
+[Search for “ich” in the field “City” (infix match)](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?layer=ch.bfe.ladestellen-elektromobilitaet&searchText=ich&searchField=City&returnGeometry=false)
 
 ```
 https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?
