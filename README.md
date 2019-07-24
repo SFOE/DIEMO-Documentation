@@ -13,7 +13,7 @@ All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/
 * [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 * There is no **OR** funcionality
 
-## Identify example:
+## Identify example
 
 [Stations within a distance of 3'500 m from coordinate 2'600'000 / 1'200'000](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=3500&sr=2056)
 
