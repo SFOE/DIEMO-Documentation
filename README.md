@@ -2,14 +2,14 @@
 
 ## Available services
 
-All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html) are available. Of special interest to query DIEMO are:
+All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html) are available. Of special interest are:
 * [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location.
 * [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features and not to discover features at a specific location.
 
 ## General remarks
 
 * [List of available queryable attributes for the layer ](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
-* Use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
+* For the identify service, use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 * [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 * There is no **OR** funcionality
 
@@ -54,6 +54,15 @@ Additionally, [Longitude > 7.476](https://mf-chsdi3.int.bgdi.ch/diemo/rest/servi
 ```
 ## Find example
 
+[Search for “ich” in the field “city” (infix match)](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?layer=ch.bfe.ladestellen-elektromobilitaet&searchText=ich&searchField=city&returnGeometry=false)
+
+```
+https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?
+layer=ch.bfe.ladestellen-elektromobilitaet&
+searchText=ich&
+searchField=city&
+returnGeometry=false
+```
 
 
 ## Open Questions
