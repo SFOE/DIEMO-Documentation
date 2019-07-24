@@ -1,13 +1,17 @@
 # How to query DIEMO
 
+## Available services
+
+* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location.
+* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features.
+
 ## General remarks
 
-* DIEMO can be queried by the [identify-service of api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features)
 * Use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 * [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 * There is no **OR** funcionality
 
-## Example 1:
+## Identify example:
 
 [Stations within a distance of 3'500 m from coordinate 2'600'000 / 1'200'000](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=3500&sr=2056)
 
@@ -46,6 +50,8 @@ Additionally, [Longitude > 7.476](https://mf-chsdi3.int.bgdi.ch/diemo/rest/servi
 "ch.bfe.ladestellen-elektromobilitaet": "QueryAuthenticationModes ilike '%nfc%'", 
 "ch.bfe.ladestellen-elektromobilitaet": "Longitude > 7.476"}
 ```
+## Find example
+
 
 
 ## Open Questions
