@@ -3,8 +3,8 @@
 ## Available services
 
 All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html) are available. Of special interest are:
-* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location.
-* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features and not to discover features at a specific location.
+* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched.
+* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account.
 
 ## General remarks
 
