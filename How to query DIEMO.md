@@ -14,9 +14,16 @@ All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/
 * There is no **OR** funcionality
 * String search is not case sensistive
 
+| Data type    | Operators | Examples |
+| --------------- | --------- |--------- |
+| varchar | =, +=, like, ilike, not like, not ilike, is null, is not null | toto ='3455 Kloten', toto ilike '%SH%', toto is null, toto ilike 'SH%' |
+| number |  =, <, >, >=, <=, != | tutu >= 2.4 tutu<5 |
+| boolean | is (true\|false), is not (true\|false) | tata is not false |
+
+
 ## Identify example
 
-[Stations within a distance of 3'500 m from coordinate 2'600'000 / 1'200'000](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=3500&sr=2056)
+[Stations within a distance of 300 m from coordinate 2'600'000 / 1'200'000](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=300&sr=2056)
 
 ```
 https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?
@@ -28,7 +35,7 @@ geometryType=esriGeometryPoint&
 lang=de&
 layers=all:ch.bfe.ladestellen-elektromobilitaet&
 returnGeometry=true&
-tolerance=3500&
+tolerance=300&
 sr=2056
 ```
 
