@@ -9,7 +9,7 @@ All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/
 ## General remarks
 
 * [List of available queryable attributes for the layer ](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
-* For the identify service, use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
+* Use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 * [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 * There is no **OR** funcionality
 * String search is not case sensistive
