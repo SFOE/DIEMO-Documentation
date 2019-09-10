@@ -3,16 +3,17 @@
 ## Available services
 
 All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html) are available. Of special interest are:
-* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched.
-* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account.
+* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-funcionality to query specific attributes.
+* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-funcionality to query specific attributes.
 
-## General remarks
+## General remarks for layerDefs functionality
 
 * [List of available queryable attributes for the layer ](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
-* Use the layerDefs-funcionality to query specific attributes. layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 * [chsdi3-code](https://github.com/geoadmin/mf-chsdi3/pull/3185)
 * There is no **OR** funcionality
 * String search is not case sensistive
+* layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
+
 
 | Data type    | Operators | Examples |
 | --------------- | --------- |--------- |
