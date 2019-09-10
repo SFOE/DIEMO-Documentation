@@ -2,9 +2,9 @@
 
 ## Available services
 
-All services of [api3.geo.admin.ch](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html) are available. Of special interest are:
-* [Identify](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-funcionality to query specific attributes.
-* [Find](http://mf-chsdi3.int.bgdi.ch/diemo/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-funcionality to query specific attributes.
+All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservices.html) are available. Of special interest are:
+* [Identify](http://api3.geo.admin.ch/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-funcionality to query specific attributes.
+* [Find](http://api3.geo.admin.ch/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-funcionality to query specific attributes.
 
 ## General remarks for layerDefs functionality
 
