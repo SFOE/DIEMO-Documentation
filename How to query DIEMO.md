@@ -84,6 +84,27 @@ https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?geometr
 &layerDefs={"ch.bfe.ladestellen-elektromobilitaet": "QueryPlugs ilike '%Type 2%'"}
 ```
 
+### Example 3
+
+[Identify all the features intersecting an polygon around Chur](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?geometryType=esriGeometryPolygon&geometry={%22rings%22%20:%20[[%20[2758610,1196685],%20[2765510,1188085],%20[2750210,1188135],%20[2758610,1196685]]]}&imageDisplay=3600,2400,96&mapExtent=2480000,170000,2840000,1310000&tolerance=0&layers=all:ch.bfe.ladestellen-elektromobilitaet&sr=2056)
+
+```
+https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?
+geometryType=esriGeometryPolygon&
+geometry={"rings" : [[ [2758610,1196685], [2765510,1188085], [2750210,1188135], [2758610,1196685]]]}&
+imageDisplay=3600,2400,96&
+mapExtent=2480000,170000,2840000,1310000&
+tolerance=0&
+layers=all:ch.bfe.ladestellen-elektromobilitaet&
+sr=2056
+```
+
+Additionally, [Plug like Type 2](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?geometryType=esriGeometryPolygon&geometry={%22rings%22%20:%20[[%20[2758610,1196685],%20[2765510,1188085],%20[2750210,1188135],%20[2758610,1196685]]]}&imageDisplay=3600,2400,96&mapExtent=2480000,170000,2840000,1310000&tolerance=0&layers=all:ch.bfe.ladestellen-elektromobilitaet&sr=2056&layerDefs={%22ch.bfe.ladestellen-elektromobilitaet%22:%20%22QueryPlugs%20ilike%20'%Type%202%'%22})
+
+```
+&layerDefs={"ch.bfe.ladestellen-elektromobilitaet": "QueryPlugs ilike '%Type 2%'"}
+```
+
 
 ## Find example (search the attributes of features)
 
