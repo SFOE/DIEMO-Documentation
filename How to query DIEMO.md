@@ -72,8 +72,3 @@ searchText=ich&
 searchField=City&
 returnGeometry=false
 ```
-
-
-## Open Questions
-* How to query "ilike not"?
-
