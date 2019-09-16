@@ -6,11 +6,10 @@ All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservice
 * [Identify](http://api3.geo.admin.ch/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-funcionality to query specific attributes.
 * [Find](http://api3.geo.admin.ch/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-funcionality to query specific attributes.
 
-## General remarks for layerDefs functionality
+## General remarks
 
 * [List of available queryable attributes](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
-* There is no **OR** functionality
-* String search is not case sensistive
+* The layerDefs-functionality does not support **OR** and string search is not case sensistive
 * layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 
 
