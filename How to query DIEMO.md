@@ -9,7 +9,7 @@ All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservice
 ## General remarks for layerDefs functionality
 
 * [List of available queryable attributes](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
-* There is no **OR** funcionality
+* There is no **OR** functionality
 * String search is not case sensistive
 * layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
 
