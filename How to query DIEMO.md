@@ -22,7 +22,7 @@ All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservice
 | boolean | is (true\|false), is not (true\|false) | tata is not false |
 
 
-## Identify example
+## Identify example (discover features at a specific location)
 
 [Stations within a distance of 300 m from coordinate 2'600'000 / 1'200'000](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/identify?geometry=2600000,1200000&mapExtent=0,0,100,100&imageDisplay=100,100,100&geometryFormat=geojson&geometryType=esriGeometryPoint&lang=fr&layers=all:ch.bfe.ladestellen-elektromobilitaet&returnGeometry=true&tolerance=300&sr=2056)
 
@@ -61,7 +61,7 @@ Additionally, [Longitude > 7.43842](https://mf-chsdi3.int.bgdi.ch/diemo/rest/ser
 "ch.bfe.ladestellen-elektromobilitaet": "QueryAuthenticationModes ilike '%nfc%'", 
 "ch.bfe.ladestellen-elektromobilitaet": "Longitude > 7.43842"}
 ```
-## Find example
+## Find example (search the attributes of features)
 
 [Search for “ich” in the field “City” (infix match)](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/all/MapServer/find?layer=ch.bfe.ladestellen-elektromobilitaet&searchText=ich&searchField=City&returnGeometry=false)
 
