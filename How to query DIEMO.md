@@ -1,4 +1,4 @@
-# How to query DIEMO
+# How to query the DIEMO-API
 
 ## Available services
 
