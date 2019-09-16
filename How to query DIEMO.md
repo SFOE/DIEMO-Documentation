@@ -62,6 +62,30 @@ Additionally, [Longitude > 7.43842](https://mf-chsdi3.int.bgdi.ch/diemo/rest/ser
 "ch.bfe.ladestellen-elektromobilitaet": "QueryAuthenticationModes ilike '%nfc%'", 
 "ch.bfe.ladestellen-elektromobilitaet": "Longitude > 7.43842"}
 ```
+
+### Example 2
+
+[Identify all the features intersecting an bounding box around the village Puidoux](https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&geometry=2547800,1148679,2549444,1150013&imageDisplay=3600,2400,96&mapExtent=2480000,170000,2840000,1310000&tolerance=0&layers=all:ch.bfe.ladestellen-elektromobilitaet&sr=2056)
+
+```
+https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?
+geometryType=esriGeometryEnvelope&
+geometry=2547800,1148679,2549444,1150013&
+imageDisplay=3600,2400,96&
+mapExtent=2480000,170000,2840000,1310000&
+tolerance=0&
+layers=all:ch.bfe.ladestellen-elektromobilitaet&
+sr=2056
+```
+
+Additionally, [Plug like Type 2](
+https://mf-chsdi3.int.bgdi.ch/diemo/rest/services/api/MapServer/identify?geometryType=esriGeometryEnvelope&geometry=2547800,1148679,2549444,1150013&imageDisplay=3600,2400,96&mapExtent=2480000,170000,2840000,1310000&tolerance=0&layers=all:ch.bfe.ladestellen-elektromobilitaet&sr=2056&layerDefs={%22ch.bfe.ladestellen-elektromobilitaet%22:%20%22QueryPlugs%20ilike%20%27%Type%202%%27%22})
+
+```
+&layerDefs={"ch.bfe.ladestellen-elektromobilitaet": "QueryPlugs ilike '%Type 2%'"}
+```
+
+
 ## Find example (search the attributes of features)
 
 ### Example 1
