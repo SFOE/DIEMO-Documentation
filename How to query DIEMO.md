@@ -20,7 +20,7 @@ All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservice
 | boolean | is (true\|false), is not (true\|false) | tata is not false |
 
 
-## Identify example (discover features at a specific location)
+## Identify examples (discover features at a specific location)
 
 ### Example 1
 
@@ -106,7 +106,7 @@ Additionally, [Plug like Type 2](https://mf-chsdi3.int.bgdi.ch/diemo/rest/servic
 ```
 
 
-## Find example (search the attributes of features)
+## Find examples (search the attributes of features)
 
 ### Example 1
 
