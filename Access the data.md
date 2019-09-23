@@ -11,7 +11,7 @@ DIEMO aggregates the data of charging point operators in real-time. The data is 
 * You may use this dataset for commercial purposes, but you must seek prior permission from the data owner.
 * You must provide the source (author, title and link to the dataset).
 
-See [opendata.swiss](https://opendata.swiss/en/terms-of-use/) for more information.
+See [opendata.swiss](https://opendata.swiss/dataset/ladestationen-fuer-elektroautos/) for more information.
 
 ## JSON-File
 
