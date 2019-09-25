@@ -15,7 +15,7 @@ See [opendata.swiss](https://opendata.swiss/dataset/ladestationen-fuer-elektroau
 
 ## JSON-File
 
-https://upload.geo.admin.ch/
+https://upload.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
 ## Web-Service
 
