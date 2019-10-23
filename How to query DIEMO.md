@@ -3,11 +3,11 @@
 ## Available services
 
 All services of [api3.geo.admin.ch](http://api3.geo.admin.ch/services/sdiservices.html) are available. To query the National Data Infrastructure For Electromobility, two services are of special interest:
-* [Identify](http://api3.geo.admin.ch/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-funcionality to query specific attributes.
-* [Find](http://api3.geo.admin.ch/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-funcionality to query specific attributes.
+* [Identify](http://api3.geo.admin.ch/services/sdiservices.html#identify-features): This service can be used to discover features at a specific location. Additionally, attributes can be searched. Use the layerDefs-functionality to query specific attributes.
+* [Find](http://api3.geo.admin.ch/services/sdiservices.html#find): This service is used to search the attributes of features. The specific location of features is not taken into account. Use the layerDefs-functionality to query specific attributes.
 
 ## General remarks
-* There is a limit of 200 results per query.
+* There is a limit of 200 results per query
 * [List of available queryable attributes](https://api3.geo.admin.ch/rest/services/all/MapServer/ch.bfe.ladestellen-elektromobilitaet?lang=de)
 * The layerDefs-functionality does not support **OR** and string search is not case sensistive
 * layerDefs is adapted from [ESRI](https://developers.arcgis.com/rest/services-reference/identify-map-service-.htm)
