@@ -4,5 +4,6 @@ Electric mobility is a key technology for more sustainable mobility and is one w
 
 * [Access the data](https://github.com/SFOE/DIEMO-Documentation/blob/master/Access%20the%20data.md)
 * [How to query the DIEMO-API](https://github.com/SFOE/DIEMO-Documentation/blob/master/How%20to%20query%20DIEMO.md)
+* [List of Charging Point Operators (CPOs)](https://github.com/SFOE/DIEMO-Documentation/blob/master/How%20to%20query%20DIEMO.md)
 
 Are you a Charging Point Operator who is interested in showing charging points on recharge-my-car.ch? Read the instructions in [German](http://www.uvek-gis.admin.ch/BFE/DIEMO_Anleitung_Anbindung_CPO.pdf), [French](http://www.uvek-gis.admin.ch/BFE/DIEMO_Anleitung_Anbindung_CPO_FR.pdf) or [Italian](http://www.uvek-gis.admin.ch/BFE/DIEMO_Anleitung_Anbindung_CPO_IT.pdf).
