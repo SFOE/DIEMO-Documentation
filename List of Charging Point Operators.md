@@ -14,3 +14,4 @@
 
 | Charging Point Operator | Start Date | Included networks
 | --- | --- | ---
+| Chocolat Frey AG | 07.11.2019 |
