@@ -15,3 +15,4 @@
 | Charging Point Operator | Start Date | Included networks
 | --- | --- | ---
 | Chocolat Frey AG | 07.11.2019 |
+| Lidl Schweiz | 13.11.2019 |
