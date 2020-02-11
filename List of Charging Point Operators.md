@@ -16,6 +16,6 @@
 | --- | --- | ---
 | Chocolat Frey AG | 07.11.2019
 | Lidl Schweiz | 13.11.2019
-| Backpackers Villa Sonnenhof | 10.12.2020
-| Elektrizitätswerk Obwalden | 16.12.2020
+| Backpackers Villa Sonnenhof | 10.12.2019
+| Elektrizitätswerk Obwalden | 16.12.2019
 | ebs Energie AG | 16.01.2020
