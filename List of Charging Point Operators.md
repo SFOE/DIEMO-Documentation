@@ -5,9 +5,11 @@
 | Charging Point Operator | Start Date | Included networks
 | --- | --- | ---
 | Easy4you | 07.04.2020 |
+| eCarUp | 20.07.2020 |
 | Eniwa | 25.09.2019 | 
 | GreenMotion | 25.09.2019 |
 | Move | 25.09.2019 |
+| Ost-mobil | 07.04.2020 |
 | Plug'n Roll | 25.09.2019 |
 | Swisscharge | 25.09.2019 | ewz
 
