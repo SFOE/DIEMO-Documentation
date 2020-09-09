@@ -23,6 +23,7 @@
 | Elektrizitätswerk Herrliberg | 01.05.2020
 | Elektrizitätswerk Obwalden | 16.12.2019
 | EWD Elektrizitaetswerk Davos AG | 09.09.2020
+| Ionity | 09.09.2020
 | Lidl Schweiz | 13.11.2019
 | Stadt Dietikon | 05.05.2020
 | Tesla Supercharger | 28.02.2020
