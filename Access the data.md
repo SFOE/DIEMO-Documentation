@@ -21,6 +21,9 @@ https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/oicp/ch.bfe.
 JSON with availability data about the charging points (EVSEData), updated continuously:
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/status/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
+GeoJSON (charging points are aggregated into locations):
+https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_de.json
+
 ## Web-Service
 
 See [How to query the DIEMO-API](https://github.com/SFOE/DIEMO-Documentation/blob/master/How%20to%20query%20DIEMO.md)
