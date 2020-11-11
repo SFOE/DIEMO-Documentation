@@ -24,6 +24,9 @@ https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/status/oicp/ch.bf
 GeoJSON (charging points are aggregated into locations):
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_de.json
 
+## Data model
+See [OICP 2.2](https://github.com/hubject/oicp/releases/download/v2.2/OICP-CPO-2.2.pdf)
+
 ## Web-Service
 
 See [How to query the DIEMO-API](https://github.com/SFOE/DIEMO-Documentation/blob/master/How%20to%20query%20DIEMO.md)
