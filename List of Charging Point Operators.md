@@ -26,5 +26,6 @@
 | EWD Elektrizitaetswerk Davos AG | 09.09.2020
 | Ionity | 09.09.2020
 | Lidl Schweiz | 13.11.2019
+| Migrol | 15.03.2021
 | Stadt Dietikon | 05.05.2020
 | Tesla Supercharger | 28.02.2020
