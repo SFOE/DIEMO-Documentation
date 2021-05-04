@@ -4,13 +4,11 @@
 
 | Charging Point Operator | Start Date | Included networks
 | --- | --- | ---
-| Easy4you | 07.04.2020 |
 | eCarUp | 20.07.2020 |
 | Eniwa | 25.09.2019 | 
 | Fastned | 20.01.2021 | 
 | GreenMotion | 25.09.2019 |
 | Move | 25.09.2019 |
-| Ost-mobil | 07.04.2020 |
 | Plug'n Roll | 25.09.2019 |
 | Swisscharge | 25.09.2019 | ewz
 
@@ -29,3 +27,11 @@
 | Migrol | 15.03.2021
 | Stadt Dietikon | 05.05.2020
 | Tesla Supercharger | 28.02.2020
+
+
+## Deactivated CPOs
+
+| Charging Point Operator | Start Date | End Date
+| --- | --- | ---
+| Easy4you | 07.04.2020 | 01.04.2021
+| Ost-mobil | 07.04.2020 | 01.04.2021
