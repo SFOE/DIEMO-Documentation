@@ -5,12 +5,22 @@
 | Charging Point Operator | Start Date | Included networks
 | --- | --- | ---
 | eCarUp | 20.07.2020 |
-| Eniwa | 25.09.2019 | 
+| Eniwa | 25.09.2019 |
+| en mobilecharge | 14.06.2021 |
+| EVA E-Mobilität | 14.06.2021 |
+| EWAcharge | 14.06.2021 |
 | Fastned | 20.01.2021 | 
 | GreenMotion | 25.09.2019 |
+| IBC | 14.06.2021 |
+| mobilecharge | 14.06.2021 |
+| Mobimo emobility | 14.06.2021 |
 | Move | 25.09.2019 |
+| PAC e-moblity | 14.06.2021 |
+| PARK & CHARGE | 14.06.2021 |
 | Plug'n Roll | 25.09.2019 |
+| S-Charge | 14.06.2021 |
 | Swisscharge | 25.09.2019 | ewz
+
 
 ## CPOs without realtime data
 
