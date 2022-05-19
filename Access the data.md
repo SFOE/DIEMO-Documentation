@@ -18,7 +18,7 @@ See [opendata.swiss](https://opendata.swiss/dataset/ladestationen-fuer-elektroau
 JSON with static data about the charging points (EVSEData), updated continuously:
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
-JSON with availability data about the charging points (EVSEData), updated continuously:
+JSON with availability data about the charging points (EVSEStatus), updated continuously:
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/status/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
 GeoJSON (charging points are aggregated into locations):
