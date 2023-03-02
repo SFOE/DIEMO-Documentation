@@ -28,7 +28,7 @@ https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.lades
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_en.json
 
 ## Data model
-See [OICP 2.2](https://github.com/hubject/oicp/releases/download/v2.2/OICP-CPO-2.2.pdf)
+See [OICP 2.3](https://github.com/hubject/oicp/tree/master/OICP-2.3/OICP%202.3%20CPO)
 
 ## Web-Service
 
