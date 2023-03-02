@@ -15,14 +15,17 @@ See [opendata.swiss](https://opendata.swiss/dataset/ladestationen-fuer-elektroau
 
 ## JSON/GeoJSON-Files
 
-JSON with static data about the charging points (EVSEData), updated continuously:
+JSON with static data about the charging points (EVSEData), updated continuously:<br>
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
-JSON with availability data about the charging points (EVSEStatus), updated continuously:
+JSON with availability data about the charging points (EVSEStatus), updated continuously:<br>
 https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/status/oicp/ch.bfe.ladestellen-elektromobilitaet.json
 
-GeoJSON (charging points are aggregated into locations):
-https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_de.json
+GeoJSON (charging points are aggregated into locations):<br>
+https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_de.json<br>
+https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_fr.json<br>
+https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_it.json<br>
+https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_en.json
 
 ## Data model
 See [OICP 2.2](https://github.com/hubject/oicp/releases/download/v2.2/OICP-CPO-2.2.pdf)
