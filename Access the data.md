@@ -1,6 +1,6 @@
 # Access the data
 
-DIEMO aggregates the data of charging point operators in real-time. The data is available as:
+ich-tanke-strom.ch aggregates the data of charging point operators in real-time. The data is available as:
 
 * JSON/GeoJSON-Files
 * Web-Service
